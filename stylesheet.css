@@ -50,22 +50,54 @@ h1{
 }
 
 @media only screen and (max-width: 600px){
-    .container{
-        padding: 20%;
+.container{
+    justify-content: center;
+    position: absolute;
+    padding-top: 20%;
+    font-size: 1.6rem;
+    }
+    
+ #kamen,#papir,#makaze{
+    position: relative;
+    padding: 30px 200px;
+    color: rgb(151, 151, 151);
+    background-color: rgb(21, 22, 22);
+    top: 200px;
+    font-size: 1.2rem;
+    box-shadow: rgb(0, 41, 29) 2px 2px 2px;
+    border: 2px solid rgb(59, 171, 185);
+    font-weight: 900;
+    left: 220px;
     }
 
-    .naslov{
-        position: relative;
-        left: 80%;
-        font-size: 0rem;
+.naslov{
+    position: relative; 
+    color: rgb(151, 151, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 80%;
+    }
+    
+    h1{
+    background-color: rgb(21, 22, 22);
+    color: rgb(214, 214, 214);
+    font-weight: 600;
+    box-shadow: rgb(59, 171, 185) 1px 1px 10px 2px;
+    padding: 2px 100px 2px 5px;
     }
 
-    #dugmici{
-        left: 120px;
+#vrh{
+    position: relative;
+    left: 0%;
+    top: 90px;
+    color: rgb(192, 196, 0);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    box-shadow: rgb(59, 171, 185) 1px 1px 10px 2px;
+    width: 583px;
     }
 
-    #vrh{
-        left: 0%;
-        width: 583%;
+    body{  
+    background-color: #172b5c;
     }
 }
