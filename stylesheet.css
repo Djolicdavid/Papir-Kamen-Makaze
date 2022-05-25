@@ -48,3 +48,24 @@ h1{
     box-shadow: rgb(59, 171, 185) 1px 1px 10px 2px;
     width: 700px;
 }
+
+@media only screen and (max-width: 600px){
+    .container{
+        padding: 20%;
+    }
+
+    .naslov{
+        position: relative;
+        left: 80%;
+        font-size: 0rem;
+    }
+
+    #dugmici{
+        left: 120px;
+    }
+
+    #vrh{
+        left: 0%;
+        width: 583%;
+    }
+}
