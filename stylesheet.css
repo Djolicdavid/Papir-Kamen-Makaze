@@ -110,6 +110,11 @@ h1{
     #makaze{
         width: 478px;
     }
+    
+    #kame{
+        width: 478px;
+    }
+        
 }
 
 @media only screen and (max-width: 360px) {
