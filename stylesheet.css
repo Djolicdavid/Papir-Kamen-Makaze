@@ -112,11 +112,8 @@ h1{
     }
 }
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-      
+@media only screen and (max-width: 360px) {
+
     .container{
         justify-content: center;
         position: absolute;
@@ -176,6 +173,65 @@ h1{
     }
 
     #makaze{
+        width: 374px;
+    }
+  }
+  @media only screen and (max-width: 384px) {
+
+    .container{
+        justify-content: center;
+        position: absolute;
+        padding-top: 20%;
+        font-size: 1.6rem;
+        }
+
+  #vrh{
+        position: relative;
+        left: 0%;
+        top: 90px;
+        color: rgb(192, 196, 0);
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        box-shadow: rgb(59, 171, 185) 1px 1px 10px 2px;
+        width: 370px;
+    }
+
+    .naslov{
+        position: relative; 
+        color: rgb(151, 151, 151);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        left: -2%;
+        font-size: 0.6rem;
+        width: 300px;
+        padding: 10%;
+        }
+    #kamen,#papir,#makaze{
+    position: relative;
+    padding: 30px 148px;
+    color: rgb(151, 151, 151);
+    background-color: rgb(21, 22, 22);
+    top: 200px;
+    font-size: 1.2rem;
+    box-shadow: rgb(0, 41, 29) 2px 2px 2px;
+    border: 2px solid rgb(59, 171, 185);
+    font-weight: 900;
+    left: -5px;
+    }
+    
+    h1{
+        background-color: rgb(21, 22, 22);
+        color: rgb(214, 214, 214);
+        font-weight: 600;
+        box-shadow: rgb(59, 171, 185) 1px 1px 10px 2px;
+        padding: 2px 100px 2px 5px;
+    }
+
+    body{  
+        background-color: #172b5c;
+    }
+
+    #papir,#kamen,#makaze{
         width: 374px;
     }
   }
