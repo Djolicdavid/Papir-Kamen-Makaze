@@ -49,6 +49,10 @@ h1{
     width: 700px;
 }
 
+
+/*--------------------------------600px MEDIA--------------------------------*/
+
+
 @media only screen and (max-width: 600px){
     .container{
         justify-content: center;
@@ -76,7 +80,7 @@ h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         left: 0%;
         font-size: 0.6rem;
-        width: 583px;
+        width: 470px;
         }
         
     h1{
@@ -104,19 +108,18 @@ h1{
         }
 
     #papir{
-        width: 478px;
+        width: 450px;
     }
 
     #makaze{
-        width: 478px;
+        width: 450px;
     }
-    
-    #kame{
-        width: 478px;
-    }
-        
-}
 
+    #kame{
+        width: 450px;
+    }
+}
+/*--------------------------------360px--------------------------------*/
 @media only screen and (max-width: 360px) {
 
     .container{
@@ -180,8 +183,12 @@ h1{
     #makaze{
         width: 374px;
     }
+
+    #kame{
+        width: 374px;
+    }
   }
-    @media only screen and (max-width: 384px) {
+  @media only screen and (max-width: 384px) {
 
     .container{
         justify-content: center;
@@ -236,14 +243,16 @@ h1{
         background-color: #172b5c;
     }
 
-    #kamen{
-        width: 360px;
-    }
-      
-    #makaze{
-        width: 360px;
-    }
-      
     #papir{
         width: 360px;
     }
+
+    #kamen{
+        width: 360px;
+    }
+
+    #makaze{
+        width: 360px;
+
+    }
+  }
