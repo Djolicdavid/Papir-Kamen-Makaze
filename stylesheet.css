@@ -176,7 +176,7 @@ h1{
         width: 374px;
     }
   }
-  @media only screen and (max-width: 384px) {
+    @media only screen and (max-width: 384px) {
 
     .container{
         justify-content: center;
@@ -231,7 +231,14 @@ h1{
         background-color: #172b5c;
     }
 
-    #papir,#kamen,#makaze{
-        width: 374px;
+    #kamen{
+        width: 100px;
     }
-  }
+      
+    #makaze{
+        width: 100px;
+    }
+      
+    #papir{
+        width: 100px;
+    }
